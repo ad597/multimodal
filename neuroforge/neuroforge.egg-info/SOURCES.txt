@@ -1,4 +1,3 @@
-README.md
 setup.py
 neuroforge/__init__.py
 neuroforge.egg-info/PKG-INFO
@@ -12,4 +11,9 @@ neuroforge/core/__init__.py
 neuroforge/core/attention_ops.py
 neuroforge/examples/__init__.py
 neuroforge/examples/multimodal_demo.py
+neuroforge/examples/rl_simulation_demo.py
 neuroforge/kernels/__init__.py
+neuroforge/simulation/__init__.py
+neuroforge/simulation/agents.py
+neuroforge/simulation/environment.py
+neuroforge/simulation/trainer.py

@@ -90,8 +90,7 @@ setup(
     version="0.1.0",
     author="AI Infrastructure Team",
     description="Custom AI Infrastructure with optimized GPU kernels for multimodal attention",
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
+    long_description="High-performance compute framework for multimodal AI and large-scale RL simulations",
     ext_modules=get_extensions(),
     cmdclass={"build_ext": build_ext},
     zip_safe=False,
@@ -120,6 +119,7 @@ setup(
         "neuroforge.kernels",
         "neuroforge.benchmarks",
         "neuroforge.examples",
+        "neuroforge.simulation",
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
